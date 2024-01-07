@@ -35,7 +35,6 @@ public class PasswordGenerator {
 
     private static char getRandom(@NotNull String option){
         int pos = (int)(Math.random() * option.length());
-        System.out.println("pos es igual a: "+ pos + " y option.length() es: "+option.length()+"y Math.random()"+ Math.random());
         return option.charAt(pos);
     }
 
